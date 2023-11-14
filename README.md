@@ -1,32 +1,35 @@
-### Facial Image Recognition App
+### Proshop!!
 
-This Project uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.
+Proshop is an ecommerce website for selling electronics aiming to serve the people on Internet.
 
 #### Project Requirements
-- User should be able to register
-- User should be able to signin and signout 
-- After succesfull registration or signin, the user should be able to enter the URL of image, click on a detect button and faces detected with a square box
-- User's rank gets upgraded everytime user detects image in a picture.
-
+- the entire member screen data is controlled by an admin panel.
+- Admin panel should be built with high security.
+- Paypal Payment Integration for checking out.
+- Product should be added to cart and the user can increase and decrease the Quantity.
+- User should be able to register, login and logout being email address valid.
+- Forgot password and Change password should be there.
+- User should be delivered email after ordering and payment.
+- Every User has their own dashboard, which includes profile update and history of their ordered products.
+- User should be able search the products with different categories.
+- A single product should has different variations like color and size.
+- Pagination of products should be there.
 
 #### Project Approach
 
-- For this full-stack web application, I created the front end components and UI using React, JavaScript, CSS & HTML. This involved creating the signin, register and the home components screens. 
+- For this full-stack web application, I created the front end components and UI using React. This involved creating the signin, register, navigation, header, main and footer components. 
 
-- The next part was creating the backend of this project using node.js and ensuring that the GET, POST and PUT requests would properly function handling the API calls, as well as handling the data. Later on, the data would be connected to a database.
-
-- The last part of the web app was to build a relational database using PostgreSQL to retrieve, store and update each user's data. All these aspects were connected together and tested to ensure each part works.
+- The next part was creating the backend of this project using django and involves creating an admin screen, registering the product's detail in the postgresql database and later the data is sent to the member screen.
+- The challenging part of this web app was to adding the same product to cart with different size and color and also the Paypal payment gateway integrations.
 
 
 #### Technologies Used:
 
-  Front End:- HTML, CSS, Bootstrap-4, React.js(Framework)
+  Front End:- React.
   
-  Back End:- NPM, Nodejs(Run time Environment), Express.js(Framework)
+  Back End:- Django, Paypal API.
   
   Database:- PostgreSQL
-  
-  API:- Clarifai Machine Learning API
   
 
 #### Preview
