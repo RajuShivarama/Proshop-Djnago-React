@@ -4,15 +4,12 @@ Proshop is an ecommerce website for selling electronics aiming to serve the peop
 
 #### Project Requirements
 - the entire member screen data is controlled by an admin panel.
-- Admin panel should be built with high security.
 - Paypal Payment Integration for checking out.
 - Product should be added to cart and the user can increase and decrease the Quantity.
 - User should be able to register, login and logout being email address valid.
 - Forgot password and Change password should be there.
-- User should be delivered email after ordering and payment.
 - Every User has their own dashboard, which includes profile update and history of their ordered products.
-- User should be able search the products with different categories.
-- A single product should has different variations like color and size.
+- User should be able search the products.
 - Pagination of products should be there.
 
 #### Project Approach
